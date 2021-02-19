@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# jyuup -- A very sinple script to install eseential Pip and Venv for Ubuntu 20.04.
+# By Joseph Yu. (https://github.com/JosephZYU/General Public License version 2.0)
+
+sudo apt -y update && sudo apt -y upgrade
+echo "Completed Initial Update and Upgrade"
+
+sudo apt -y install python3-pip
+sudo apt -y install python3-venv
+sudo pip3 install pipenv
+echo "Install Pip and Venv for Ubuntu 20.04"
+
+sudo apt install tree
+echo "Installed tree"
+
+echo "COMPLETED insatllations for Pip and Venv!"
