@@ -4,7 +4,7 @@
 # By Joe Collins. (www.ezeelinux.com GNU/General Public License version 2.0)
 
 clear
-echo "Memory Usage:"
+echo "Memory Usage:✅"
 /usr/bin/free -h
 
 echo $'\n'$"Disk Usage:"
