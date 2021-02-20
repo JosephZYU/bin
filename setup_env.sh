@@ -13,7 +13,7 @@ cd ~
 clear
 
 # Set BASH to quit script and exit on errors:
-set -e
+# set -e
 
 # Functions:
 
