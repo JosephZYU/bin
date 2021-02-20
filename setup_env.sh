@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # A very simple script to install eseential Pip and Venv for Ubuntu 20.04.
-# By Joseph Yu. (https://github.com/JosephZYU/General Public License version 2.0)
+# By Joseph Yu. (https://github.com/JosephZYU/)
+# GNU General Public License v3.0
 
 cd ~
 clear
