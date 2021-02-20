@@ -17,4 +17,7 @@ echo $'\n'$"Install Pip and Venv for Ubuntu 20.04"
 sudo apt install tree
 echo $'\n'$"Installed tree"
 
+sudo apt install mlocate
+echo $'\n'$"Installed mlocate to enable locate search"
+
 echo $'\n'$"COMPLETED insatllations for Pip and Venv!"
