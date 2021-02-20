@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # A very simple script to setup on personal settings from GitHub.
-# By Joseph Yu. (https://github.com/JosephZYU/General Public License version 2.0)
+# By Joseph Yu. (https://github.com/JosephZYU/)
+# GNU General Public License v2.0
 
 cd ~
 clear
