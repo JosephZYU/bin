@@ -7,9 +7,9 @@ Place this bin folder under $HOME (E.g. /home/josephyu/bin)
     💲 setup_dotfiles.sh
     💲 setup_env.sh
     
-    💲 (optional: apt list --installed) (Ref: https://askubuntu.com/a/17829)
+    💲 (optional: apt list --installed; apt list python3*) (Ref: https://askubuntu.com/a/17829)
 
-NOTE: 🧭 Homebrew (on macOS) and APT (on Ubuntu)
+🧭 Homebrew (on macOS) and APT (on Ubuntu)
 
       The purpose of both tools is similar. 
       
@@ -22,3 +22,17 @@ NOTE: 🧭 Homebrew (on macOS) and APT (on Ubuntu)
       However, if someone is a pure Ubuntu user, I’d absolutely encourage them to use their native tool – APT.
       
       (Ref: https://askubuntu.com/a/1158924)
+      
+🧭 apt-get install 🆚 pip install
+      
+      Canonical only provides packages for selected python modules.
+      PyPI hosts a much broader range of python modules. So, there are a lot of python modules which you won't be able to install using apt-get.
+      
+      Canonical only hosts a single version of any package (generally the latest or the one released in recent past).
+      
+      apt-get installs python modules in system-wide location.
+      
+      if you need to install a particular version of python-package, or install the package in a virtualenv, or install a package which is only hosted on PyPI; 
+      only pip would help you solve that issue.
+
+      (Ref: https://askubuntu.com/a/431811)
