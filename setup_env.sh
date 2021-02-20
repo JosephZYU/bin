@@ -6,6 +6,9 @@
 
 # apt list --installed
 
+# Options -y -q
+# https://manpages.ubuntu.com/manpages/trusty/en/man8/apt-get.8.html#options:~:text=OPTIONS,-All
+
 cd ~
 clear
 
@@ -26,8 +29,8 @@ echo $'\n'$"Completed Initial Update and Upgrade"$'\n'
 install() {
 
 echo "Starting installation for pip, venv, pipenv..."
-sudo apt -y install python3-venv
-sudo apt -y install python3-pip
+sudo apt install -y python3-venv
+sudo apt install -y python3-pip
 sudo pip3 install pipenv
 echo $'\n'$"Completed installation pip, venv, pipenv for Ubuntu 20.04"$'\n'
 
