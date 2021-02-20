@@ -4,6 +4,8 @@
 # By Joseph Yu. (https://github.com/JosephZYU/)
 # GNU General Public License v3.0
 
+# apt list --installed
+
 cd ~
 clear
 
@@ -15,8 +17,8 @@ set -e
 up2() {
 
 echo "Starting full system update..."
-sudo apt -y update
-sudo apt full-upgrade -yy
+sudo apt update -y
+sudo apt full-upgrade -y
 echo $'\n'$"Completed Initial Update and Upgrade"$'\n'
 
 }
@@ -41,7 +43,7 @@ sudo apt autoclean
 remove() {
 
 echo "Removing orpahned packages..."
-sudo apt autoremove -yy
+sudo apt autoremove -y
 
 }
 
