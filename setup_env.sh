@@ -17,7 +17,7 @@ set -e
 
 # Functions:
 
-up2() {
+up() {
 
 echo "Starting full system update..."
 sudo apt update -yq
