@@ -13,5 +13,5 @@ cd dotfiles/
 
 # chmod +x install.sh
 
-./install.sh /home/josephyu
+./install.sh $HOME
 echo $'\n'$"Completed Personal bash settings!"
