@@ -17,23 +17,24 @@ set -e
 
 # Functions:
 
-# up() {
+up() {
 
 echo "Starting full system update..."
 sudo apt update -yq
 sudo apt full-upgrade -yq
 echo $'\n'$"Completed Initial Update and Upgrade"$'\n'
 
-# }
+}
 
-# install() {
+install() {
 
 echo "Starting installation for pip, venv, pipenv..."
 sudo apt install -y python3-venv
 sudo apt install -y pipenv
+sudo apt install -y tree
 echo $'\n'$"Completed installation pip, venv, pipenv for Ubuntu 20.04"$'\n'
 
-# }
+}
 
 
 # INSTALL
@@ -50,33 +51,33 @@ echo $'\n'$"Completed installation pip, venv, pipenv for Ubuntu 20.04"$'\n'
 # apt list --installed python3-venv
 
 
-# clean() {
+clean() {
 
 echo "Removing apt cache packages that can no longer be downloaded..."
 sudo apt autoclean
 
-# }
+}
 
-# remove() {
+remove() {
 
 echo "Removing orpahned packages..."
 sudo apt autoremove -y
 
-# }
+}
 
-# leave() {
+leave() {
 
 echo "--------------------------------"
 echo "- Environment setup completed! -"
 echo "--------------------------------"
-# exit
+exit
 
-# }
+}
 
 
 # Check for tree and install if needed:
-dpkg -l | grep -qw tree || sudo apt install tree -yyq
-echo $'\n'$"Installed tree"
+# dpkg -l | grep -qw tree || sudo apt install tree -yyq
+# echo $'\n'$"Installed tree"
 
 # Check for mlocate and install if needed:
 # dpkg -l | grep -qw mlocate || sudo apt install mlocate -yyq
