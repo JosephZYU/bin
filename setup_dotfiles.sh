@@ -2,7 +2,7 @@
 
 # A very simple script to setup on personal settings from GitHub.
 # By Joseph Yu. (https://github.com/JosephZYU/)
-# GNU General Public License v2.0
+# GNU General Public License v3.0
 
 cd ~
 clear
