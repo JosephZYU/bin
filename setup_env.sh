@@ -20,8 +20,8 @@ set -e
 up2() {
 
 echo "Starting full system update..."
-sudo apt update -y
-sudo apt full-upgrade -y
+sudo apt update -yq
+sudo apt full-upgrade -yq
 echo $'\n'$"Completed Initial Update and Upgrade"$'\n'
 
 }
@@ -30,11 +30,25 @@ install() {
 
 echo "Starting installation for pip, venv, pipenv..."
 sudo apt install -y python3-venv
-sudo apt install -y python3-pip
-sudo pip3 install pipenv
+sudo apt install -y pipenv
 echo $'\n'$"Completed installation pip, venv, pipenv for Ubuntu 20.04"$'\n'
 
 }
+
+
+# INSTALL
+# sudo apt install -y python3-pip
+
+# REMOVE
+# sudo apt purge -y $package
+# sudo apt purge -y python3-venv
+
+# LIST
+# apt list $package
+# apt list --installed $package
+# apt list --installed python3*
+# apt list --installed python3-venv
+
 
 clean() {
 
@@ -59,14 +73,6 @@ exit
 
 }
 
-
-# sudo apt -y update && sudo apt -y upgrade
-# echo "Completed Initial Update and Upgrade"
-
-# sudo apt -y install python3-pip
-# sudo apt -y install python3-venv
-# sudo pip3 install pipenv
-# echo $'\n'$"Install Pip and Venv for Ubuntu 20.04"
 
 # Check for tree and install if needed:
 dpkg -l | grep -qw tree || sudo apt install tree -yyq
