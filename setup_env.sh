@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# jyuup -- A very sinple script to install eseential Pip and Venv for Ubuntu 20.04.
+# A very simple script to install eseential Pip and Venv for Ubuntu 20.04.
 # By Joseph Yu. (https://github.com/JosephZYU/General Public License version 2.0)
 
 cd ~
