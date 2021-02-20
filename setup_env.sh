@@ -24,8 +24,8 @@ echo $'\n'$"Completed Initial Update and Upgrade"$'\n'
 install() {
 
 echo "Starting installation for pip, venv, pipenv..."
-sudo apt -y install python3-pip
 sudo apt -y install python3-venv
+sudo apt -y install python3-pip
 sudo pip3 install pipenv
 echo $'\n'$"Completed installation pip, venv, pipenv for Ubuntu 20.04"$'\n'
 
