@@ -20,8 +20,8 @@ set -e
 up() {
 
 echo "Starting full system update..."
-sudo apt update -yq
-sudo apt full-upgrade -yq
+sudo apt update -y
+sudo apt full-upgrade -y
 echo $'\n'$"Completed Initial Update and Upgrade"$'\n'
 
 }
