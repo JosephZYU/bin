@@ -6,6 +6,8 @@ Place this bin folder under $HOME (E.g. /home/josephyu/bin)
 
     💲 setup_dotfiles.sh
     💲 setup_env.sh
+    
+    💲 (optional: apt list --installed) (Ref: https://askubuntu.com/a/17829)
 
 NOTE: 🧭 Homebrew (on macOS) and APT (on Ubuntu)
 
