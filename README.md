@@ -7,7 +7,7 @@ Place this bin folder under $HOME (E.g. /home/josephyu/bin)
     💲 setup_dotfiles.sh
     💲 setup_env.sh
     
-    💲 (optional: apt list --installed; apt list python3*) (Ref: https://askubuntu.com/a/17829)
+    💲 (optional: apt list --installed python3*) (Ref: https://askubuntu.com/a/17829)
 
 🧭 Homebrew (on macOS) and APT (on Ubuntu)
 
