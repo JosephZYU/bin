@@ -14,7 +14,11 @@ cd dotfiles/
 # chmod +x install.sh
 
 ./install.sh $HOME
-echo $'\n'$"Completed Personal bash settings!"
+echo $'\n'$"Completed Personal settings!"
+
+echo "#######################"
+echo "  YOU'RE READY TO GO!  "
+echo "#######################"
 
 # NOTE: Must include the $HOME as an input argument (variable)
 # ./install.sh $HOME
