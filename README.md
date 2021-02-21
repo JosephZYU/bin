@@ -4,8 +4,7 @@ Place this bin folder under $HOME (E.g. /home/josephyu/bin)
     
     💲 (optional: sudo chmod +x $HOME/bin/script)
 
-    💲 setup_dotfiles.sh
-    💲 setup_env.sh
+    💲 setup.sh
     
     💲 (optional: apt list --installed python3*) (Ref: https://askubuntu.com/a/17829)
 
