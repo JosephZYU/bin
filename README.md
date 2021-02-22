@@ -1,3 +1,6 @@
+⚡ 💲 git clone https://github.com/JosephZYU/bin.git && export PATH="$HOME/bin:$PATH" && setup.sh $HOME⚡
+_______________________________________________________________________________________________________________________________________________________________________________
+
 Place this bin folder under $HOME (E.g. /home/josephyu/bin)
 
     ⚡ 💲 git clone https://github.com/JosephZYU/bin.git && export PATH="$HOME/bin:$PATH" && setup.sh $HOME⚡
