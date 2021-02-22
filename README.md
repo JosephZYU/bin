@@ -3,7 +3,11 @@ ________________________________________________________________________________
 
 Place this bin folder under $HOME (E.g. /home/josephyu/bin)
 
-    ⚡ 💲 git clone https://github.com/JosephZYU/bin.git && export PATH="$HOME/bin:$PATH" && setup.sh $HOME⚡
+    💲 git clone https://github.com/JosephZYU/bin.git
+    
+    💲 export PATH="$HOME/bin:$PATH"
+    
+    💲 setup.sh $HOME⚡
     
     💲 (optional: sudo chmod +x $HOME/bin/script)
     
