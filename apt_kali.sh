@@ -6,6 +6,11 @@ sudo apt update -y
 sudo apt full-upgrade -y
 echo $'\n'$"Completed Initial Update and Upgrade"$'\n'
 
+# Install Kali desktop experience for Windows and pip-related dependencies
+# https://youtu.be/MRpVO2dZ_ks?t=345
+echo "Starting installation for Kali wsl"
+sudo apt install -y kali-win-kex
+
 # Install pip-related dependencies
 echo "Starting installation for pip, venv, pipenv..."
 sudo apt install -y python3-venv
