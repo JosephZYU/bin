@@ -1,6 +1,6 @@
-⚡ 💲 git clone https://github.com/JosephZYU/bin.git && export PATH="$HOME/bin:$PATH" && setup_ubuntu.sh $HOME⚡
+⚡ git clone https://github.com/JosephZYU/bin.git && export PATH="$HOME/bin:$PATH" && setup_ubuntu.sh $HOME⚡
 
-⚡ 💲 git clone https://github.com/JosephZYU/bin.git && export PATH="$HOME/bin:$PATH" && setup_kali.sh $HOME⚡
+⚡ git clone https://github.com/JosephZYU/bin.git && export PATH="$HOME/bin:$PATH" && setup_kali.sh $HOME⚡
 _______________________________________________________________________________________________________________________________________________________________________________
 
 Place this bin folder under $HOME (E.g. /home/josephyu/bin)
