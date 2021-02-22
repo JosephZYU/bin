@@ -2,12 +2,7 @@ Place this bin folder under $HOME (E.g. /home/josephyu/bin)
 
     ⚡ 💲 git clone https://github.com/JosephZYU/bin.git && export PATH="$HOME/bin:$PATH" && install.sh $HOME⚡
     
-    
-    💲 export PATH="$HOME/bin:$PATH"
-    
     💲 (optional: sudo chmod +x $HOME/bin/script)
-
-    💲 setup.sh
     
     💲 (optional: apt list --installed python3*) (Ref: https://askubuntu.com/a/17829)
 
