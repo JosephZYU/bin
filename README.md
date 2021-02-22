@@ -4,14 +4,16 @@ ________________________________________________________________________________
 Place this bin folder under $HOME (E.g. /home/josephyu/bin)
 
     💲 git clone https://github.com/JosephZYU/bin.git
-    
     💲 export PATH="$HOME/bin:$PATH"
-    
     💲 setup.sh $HOME⚡
     
     💲 (optional: sudo chmod +x $HOME/bin/script)
-    
     💲 (optional: apt list --installed python3*) (Ref: https://askubuntu.com/a/17829)
+    
+Go to Windows Terminal:
+
+    💲 wslconfig /L
+    💲 wslconfig /setdefault Ubuntu-20.04
 
 🧭 Homebrew (on macOS) and APT (on Ubuntu)
 
