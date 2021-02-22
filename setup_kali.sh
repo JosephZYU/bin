@@ -43,7 +43,7 @@ done
 curl "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" > ${homedir}/.git-completion.bash
 
 # Run the apt Script
-apt_kali.sh
+# apt_kali.sh
 
 echo $'\n'$"Completed Personal settings!"
 
