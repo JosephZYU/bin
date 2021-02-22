@@ -7,13 +7,13 @@
 cd ~
 clear
 
-git clone https://github.com/JosephZYU/dotfiles.git
-echo "Downloaded dotfiles from GitHub"
+# git clone https://github.com/JosephZYU/dotfiles.git
+# echo "Downloaded dotfiles from GitHub"
 
-cd dotfiles/
+# cd dotfiles/
 # chmod +x install.sh
 
-./install.sh $HOME
+# ./install.sh $HOME
 echo $'\n'$"Completed Personal settings!"
 
 echo "#######################"

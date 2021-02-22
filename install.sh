@@ -5,6 +5,12 @@
 # And sets VSCode preferences
 ############################
 
+cd ~
+clear
+
+git clone https://github.com/JosephZYU/dotfiles.git
+echo $'\n'$"Downloaded dotfiles from GitHub"
+
 echo "#######################"
 echo "JOSEPH'S DOTFILES SETUP"
 echo "#######################"
@@ -37,7 +43,15 @@ done
 curl "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" > ${homedir}/.git-completion.bash
 
 # Run the apt Script
-./apt.sh
+apt.sh
+
+echo $'\n'$"Completed Personal settings!"
+
+echo "#######################"
+echo "  YOU'RE READY TO GO!  "
+echo "#######################"
+
+# ./apt.sh
 
 # Run the VSCode Script
 # ./vscode.sh
