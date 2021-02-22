@@ -11,9 +11,9 @@ clear
 git clone https://github.com/JosephZYU/dotfiles.git
 echo $'\n'$"Downloaded dotfiles from GitHub"
 
-echo "#######################"
-echo "JOSEPH'S DOTFILES SETUP"
-echo "#######################"
+echo "###########################"
+echo "# JOSEPH'S DOTFILES SETUP #"
+echo "###########################"
 
 if [ "$#" -ne 1 ]; then
     echo "Usage: install.sh <home_directory>"
@@ -47,11 +47,9 @@ apt.sh
 
 echo $'\n'$"Completed Personal settings!"
 
-echo "#######################"
-echo "  YOU'RE READY TO GO!  "
-echo "#######################"
-
-# ./apt.sh
+echo "#########################"
+echo "#  YOU'RE READY TO GO!  #"
+echo "#########################"
 
 # Run the VSCode Script
 # ./vscode.sh
