@@ -1,9 +1,10 @@
 #!/bin/bash
-############################
+
+#####################################################################################################
 # This script creates symlinks from the home directory to any desired dotfiles in ${homedir}/dotfiles
 # And also installs apt Packages
 # And sets VSCode preferences
-############################
+#####################################################################################################
 
 cd ~
 clear
@@ -26,7 +27,7 @@ homedir=$1
 dotfiledir=${homedir}/dotfiles
 
 # list of files/folders to symlink in ${homedir} # private
-files="aliases bash_profile bash_prompt bashrc"
+files="aliases bash_profile bash_prompt bashrc gitconfig"
 
 # change to the dotfiles directory
 echo "Changing to the ${dotfiledir} directory"
@@ -42,14 +43,15 @@ done
 # Download Git Auto-Completion
 curl "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" > ${homedir}/.git-completion.bash
 
-# Run the apt Script
-# apt_kali.sh
 
 echo $'\n'$"Completed Personal settings!"
 
 echo "#########################"
 echo "#  YOU'RE READY TO GO!  #"
 echo "#########################"
+
+# Run the apt Script
+# apt.sh
 
 # Run the VSCode Script
 # ./vscode.sh

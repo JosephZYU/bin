@@ -1,7 +1,9 @@
 #!/bin/bash
 
+#####################################################################################################
 # chksys -- A very sinple script to check on system resources.
 # By Joe Collins. (www.ezeelinux.com GNU/General Public License version 2.0)
+#####################################################################################################
 
 clear
 echo "Memory Usage:"

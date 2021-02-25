@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#####################################################################################################
+# This script is specifically created for the setup of Ubuntu 20.04 on Windows 10 (WSL2)
+#####################################################################################################
+
 # Update and Upgrade
 echo "Starting full system update..."
 sudo apt update -y

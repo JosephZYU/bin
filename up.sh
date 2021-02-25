@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#####################################################################################################
 # Up -- Debian/Ubuntu Update Tool (Version 1.2)
 # Advanced command to fully update system: "up" Adding the option "--clean" will
 # remove orphaned packages and auto-clean the apt cache. (January, 2018)
@@ -7,6 +8,7 @@
 # By Joe Collins www.ezeelinux.com (GNU/General Public License version 2.0)
 #
 # ...And way we go!
+#####################################################################################################
 
 # Check for less utility and install if needed:
 
